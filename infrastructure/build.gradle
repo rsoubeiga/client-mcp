@@ -13,11 +13,23 @@ java {
     }
 }
 
+ext {
+    set('springAiVersion', "1.0.0-M1")
+}
+
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.ai:spring-ai-bom:${springAiVersion}"
+    }
 }
 
 dependencies {
+    implementation 'org.springframework.ai:spring-ai-starter-vertex-ai-gemini'
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
