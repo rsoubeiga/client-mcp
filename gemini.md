@@ -9,6 +9,7 @@ Ceci est une application Spring Boot multi-modules implémentant une architectur
 - Spring Boot 3.5.4
 - Lombok pour réduire le boilerplate
 - MapStruct pour le mapping d'objets
+- Utilisation des gitmojis dans les messages de commit
 
 ## Modules
 - `application`: Contient la logique métier et les ports
@@ -33,3 +34,8 @@ Ceci est une application Spring Boot multi-modules implémentant une architectur
 - H2 Database (base de données en mémoire pour le développement)
 - Lombok (pour réduire le code boilerplate)
 - MapStruct (pour le mapping objet-objet)
+
+## Conventions de commit
+- Utilisation de gitmojis pour catégoriser les commits
+- Messages de commit en français
+- Format: `:<gitmoji> <message>`
