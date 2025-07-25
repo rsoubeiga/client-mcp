@@ -37,5 +37,5 @@ Ceci est une application Spring Boot multi-modules implémentant une architectur
 
 ## Conventions de commit
 - Utilisation de gitmojis pour catégoriser les commits
-- Messages de commit en français
+- Messages de commit et titres en anglais
 - Format: `:<gitmoji> <message>`
