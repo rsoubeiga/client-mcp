@@ -1,0 +1,4 @@
+rootProject.name = 'client-mcp'
+
+include 'application'
+include 'infrastructure'
